@@ -11,7 +11,6 @@ const router = express.Router();
 const connectDB = require("./app/config/connectDB");
 const socketIo = require("socket.io");
 
-
 const io = socketIo(server, {
 	cors: {
 		origin: "*",
